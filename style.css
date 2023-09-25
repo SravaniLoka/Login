@@ -1,0 +1,77 @@
+body{
+    background-color:rgb(245, 209, 215);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:Center;
+}
+form{
+    background-color:aliceblue;
+    max-width:500px;
+    margin:50px auto;
+    padding: 30px 20px;
+    box-shadow:2px 5px 10px rgba(0,0,0,0.5);
+}
+#form{
+    text-align:left;
+    margin-bottom:25px;
+}
+.registration-form label{
+    display:block;
+    margin-bottom:10px;
+}
+.registration-form input,
+.registration-form button,
+.registration-form textarea{
+    border:1px solid black;
+    border-radius:10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:10px;
+    display:block;
+    width:95%
+}
+.registration {
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    min-height: 10vh;
+}
+.input {
+    width: 40px;
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    margin: 0 10px;
+    text-align: left;
+    font-size: 36px;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+  
+.input:focus {
+    border-bottom: 3px solid orange;
+    outline: none;
+}
+  
+.input:nth-child(1) {
+    cursor: pointer;
+    pointer-events: all;
+}
+form .registration{
+    flex-direction: row;
+    column-gap: 10px;
+}
+.registration input{
+    height: 30px;
+    width: 28px;
+    outline: none;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+button{
+    background-color: #acf39d;
+}
+.image,
+div.absolute{
+    position:absolute;
+    top:120px;
+    right:185px
+}
